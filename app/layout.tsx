@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{colorScheme: 'dark'}} >
       <body className={cn('min-h-screen bg-dark-300 font-sans antialiased', fontSans.variable)}>{children}</body>
     </html>
   );
